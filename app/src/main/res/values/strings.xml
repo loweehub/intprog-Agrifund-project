@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Agri-Fund</string>
+    <string-array name="profile_options">
+        <item>Profile</item>
+        <item>Customize</item>
+        <item>Logout</item>
+    </string-array>
+</resources>

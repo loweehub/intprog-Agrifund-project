@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_home"
+        android:title="Home" />
+    <item
+        android:id="@+id/action_business"
+        android:title="Business" />
+    <item
+        android:id="@+id/action_campaigns"
+        android:title="Campaigns" />
+    <item
+        android:id="@+id/action_cs"
+        android:title="Customer Support" />
+</menu>

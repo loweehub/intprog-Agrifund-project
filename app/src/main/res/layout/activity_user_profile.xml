@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    tools:context="com.crowdfunding.UserProfile.UserProfile">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#D5FBED"
+        android:layout_marginTop="@dimen/header_margin_top">
+
+        <Button
+            android:id="@+id/homeButtonCs"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/business_vector" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="User Profile"
+            android:layout_toEndOf="@+id/homeButtonCs"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginStart="16dp"/>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/profile_picture_imageview"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/circle_border"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="24dp"/>
+
+    <Button
+        android:id="@+id/profile_picture_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:text="Add Profile Picture" />
+
+</LinearLayout>

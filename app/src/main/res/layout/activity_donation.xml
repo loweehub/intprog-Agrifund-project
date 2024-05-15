@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context="com.crowdfunding.dashboard.Donation">
+
+    <RelativeLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#D5FBED"
+        android:layout_marginTop="@dimen/header_margin_top">
+
+        <Button
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/homeButtonDonation"
+            android:background="@drawable/business_vector" />
+        <TextView
+            android:id="@+id/donationName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Donation"
+            android:layout_toEndOf="@+id/homeButtonDonation"
+            android:textAlignment="center"
+            android:textSize="45sp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="10dp" />
+    </RelativeLayout>
+</LinearLayout>
