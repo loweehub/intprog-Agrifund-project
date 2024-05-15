@@ -16,7 +16,6 @@
         android:background="#D5FBED"
         android:layout_marginTop="@dimen/header_margin_top"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         tools:ignore="MissingConstraints">
 
